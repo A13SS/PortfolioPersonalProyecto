@@ -1,0 +1,18 @@
+.idioms-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.idioms h2 {
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.idioms p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+}

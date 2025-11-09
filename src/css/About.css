@@ -1,0 +1,50 @@
+.about {
+  padding: 60px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1350px;
+  flex-wrap: wrap;
+}
+
+.about-text-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.about-text-wrapper p {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 150px;
+}
+
+.profile-pic {
+  width: 350px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 3px solid white;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
